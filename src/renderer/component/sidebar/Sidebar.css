@@ -1,0 +1,39 @@
+.sidebar {
+  background-color: #181818;
+  width: 20%;
+  height: 100%;
+  display: block;
+  border-right: 2px solid #2a2a2a;
+}
+.header {
+  display: flex;
+  padding: 5px;
+  font-size: 12px;
+  border-bottom: 2px solid #2a2a2a;
+}
+.title {
+  flex: 1;
+}
+.sidebar-item {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+  padding: 10px;
+  color: #c5c5c5;
+}
+.sidebar-item:hover {
+  background-color: #3e3e42;
+}
+.sidebar-item span {
+  flex: 1;
+}
+button {
+  background-color: transparent;
+  color: #c5c5c5;
+  border: 0;
+  cursor: pointer;
+}
+.wrapper {
+  overflow-y: auto;
+  height: 100%;
+}

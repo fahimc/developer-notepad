@@ -1,0 +1,25 @@
+.toolbar {
+  background-color: #181818;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: 2px solid #2a2a2a;
+  column-gap: 10px;
+  justify-content: left;
+  align-items: center;
+}
+.logo {
+  width: 20px;
+}
+.logo-title {
+  font-size: 12px;
+}
+.note-title {
+  margin-left: 20px;
+  background-color: transparent;
+  border: 0;
+  color: #c5c5c5;
+  outline: none;
+  flex: 1;
+}
